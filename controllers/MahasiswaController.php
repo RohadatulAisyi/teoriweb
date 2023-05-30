@@ -9,4 +9,9 @@ class MahasiswaController extends \yii\web\Controller
         return $this->render('profil');
     }
 
+    public function actionIndex()
+    {
+        $query = Mahasiswa
+    }
+
 }
